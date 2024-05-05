@@ -1,12 +1,15 @@
-## Headphones online shop
+## RestCountries App
 
-This project was bootstrapped with SASS on React
+### This project was bootstrapped with:  
+#### SASS  
+#### React 
+#### MaterialUI
 
 ## Used:
 Webpack
 Babel
-SASS/SCSS
-React
+SASS
+React Create App
 
 ## Available Scripts
 
