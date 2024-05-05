@@ -1,0 +1,26 @@
+.cards
+    width: 100%
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 30px
+    @include respond(tab-port)
+        grid-template-columns: repeat(2, 1fr)
+    @include respond(phone)
+        grid-template-columns: repeat(1, 1fr)
+        gap: 10px
+        justify-items: center
+    &__wrapper
+        box-shadow: $main-shadow
+        border-radius: 8px
+        padding: 10px
+        background-color: $color-white
+        display: flex
+        flex-direction: column
+    &__img
+        height: 160px
+        text-align: center
+    &__img img
+        width: 90%
+    &__text
+        @include link-master
+

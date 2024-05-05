@@ -1,0 +1,25 @@
+.header
+    width: 100%
+    background-color: $color-background
+    padding: 12px 0
+    box-shadow: $main-shadow
+    &__menu
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 20px
+        @include respond(phone)
+            justify-content: space-around
+.header-wrapper
+    display: flex
+    align-items: center
+    justify-content: space-between
+    gap: 80px
+.logo
+    max-width: 85px
+    max-height: 30px
+    text-decoration: none
+    color: $color-second-black
+    font-family: $main-font
+    font-weight: bold
+    font-size: 25px
